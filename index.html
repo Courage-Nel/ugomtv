@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="Dl0xplkMytaEyy2Qwx51ppHxez6KzK_HHBkIlaGH9Bc" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+<meta name="theme-color" content="orange">
+<meta name="description" content="This is an authorized website of Ugom TV Okoboh">
+<meta name="author" content="Courage Nelson">
+<meta name="keywords" content="ugom, TV, okoboh, ugomtv, ogomtv,">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Ugom TV</title>
+<link rel="icon" href="assets/images/ugomtv.jpg">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style_desktop.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+<script src="assets/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="assets/images/ugomtv.jpg">™
+    </div>
+        <button id="openSearch" class="search" aria-label="search">
+            <i data-feather="search"></i>
+        </button>
+
+ <div id="searchOverlay">
+
+    <button class="back-button" id="closeSearch">
+<i data-feather="x"></i>
+</button>
+<form action="search.php" method="get">
+<div class="search-box">
+    <input type="search" class="search-input" placeholder="Type to search..." required/><button type="submit" class="search-btn"><i data-feather="search"></i></button>
+</form>
+  </div>
+</div>
+
+    
+    <div class="mobile">
+        <button class="hamburger" aria-label="menu" onclick="toggleMenu()">
+            <i data-feather="menu"></i>
+        </button>
+     <nav id="menu">
+    <ul>
+        <li><a href="/#" class="active"><i data-feather="home"></i> <span>HOME</span></a></li>
+        <li><a href="news/"><i data-feather="globe"></i> <span>NEWS</span></a></li>
+        <li><a href="media/"><i data-feather="video"></i> <span>MEDIA</span></a></li>
+        <li><a href="faqs/"><i data-feather="help-circle"></i> <span>FAQS</span></a></li>
+        <li><a href="about/"><i data-feather="info"></i> <span>ABOUT</span></a></li>
+    </ul>
+</nav>
+
+</header>
+<main>
+    <h1>This week at Ugom TV</h1>
+<br>
+<div id="clock"></div>
+<br>
+<h2>News update</h2>
+<br>
+    <figure>
+  <img src="assets/images/butterfly (1).jpg" alt="Butterfly Photo by Ugom TV">
+<br>
+    <figcaption>
+ I love nature, do you? 
+    </figcaption>
+<br> 
+<p>Find out the truth behind Ogbagara Oye series and why its production is delayed.</p><br>
+<a href="news/ogb_is_delayed.html"><button class="see">Learn more</button></a>
+<br>
+   </figure>
+<br>
+<hr>
+
+<h3>New</h3>
+<br>
+<figure>
+    <img src="assets/images/ogb_ugomtv.jpg" alt="">
+    <span class="duration">
+        Duration: 1:58
+    </span>
+    <figcaption>
+        Ogbagara Oye Episode 1 - Pilot
+    </figcaption>
+</figure>
+<br><hr>
+<br>
+</main>
+<br><br>
+
+<footer>
+<br>
+Ugom TV. All rights reserved.
+     <br>
+ <a href="#">EMAIL</a>  |
+ <a href="assets/pages/privacy.html">PRIVACY POLICY</a>  |
+ <a href="assets/pages/terms.html">TERMS AND CONDITIONS</a>  |
+ <a href="assets/pages/help.html">HELP</a>   |
+ <a href="about/">ABOUT US</a>
+ <br>
+<p>Copyright © <span id="year"></span></p>
+<br>
+
+</footer>
+
+<script>
+    feather.replace();
+</script>
+</body>
+</html>
