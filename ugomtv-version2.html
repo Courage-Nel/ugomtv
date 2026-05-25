@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ── Meta ── -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="Ugom TV official website has been upgraded and is now more stable. Read about the new features and improvements.">
+  <meta name="keywords" content="ugom, tv, ugomtv, update, version 2, website upgrade, courage nelson">
+  <meta name="author" content="Courage Nelson">
+  <meta name="theme-color" content="orange">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type"        content="article">
+  <meta property="og:url"         content="https://ugomtv.pages.dev/news/ugomtv-version2.html">
+  <meta property="og:title"       content="Ugom TV Official Website Upgraded and More Stable — Ugom TV">
+  <meta property="og:description" content="Ugom TV official website has been upgraded and is now more stable. Read about the new features and improvements.">
+  <meta property="og:image"       content="../assets/images/butterfly-ugomtv.png">
+  <meta property="og:site_name"   content="Ugom TV">
+  <meta property="og:locale"      content="en_NG">
+  <meta property="article:author" content="Courage Nelson">
+  <meta property="article:published_time" content="2026-05-23T00:00:00+01:00">
+  <meta property="article:section" content="News">
+
+  <title>Ugom TV Official Website Upgraded and More Stable</title>
+
+  <!-- ── Icons & Styles ── -->
+  <link rel="icon"             href="../assets/images/ugomtv.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/images/ugomtv.png" type="image/png">
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/share.css">
+  <link rel="stylesheet" href="../assets/css/style-desktop.css">
+  <link rel="stylesheet" href="../assets/css/google-notosans.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
+
+  <!-- ── Article-specific Styles ── -->
+  <style>
+    /* ── Article Page Layout ── */
+    .article-hero {
+      width: 100%;
+      max-height: 340px;
+      overflow: hidden;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+
+    .article-hero img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      font-size: 0.8rem;
+      color: #888;
+      margin-bottom: 1rem;
+    }
+
+    .article-meta .badge {
+      background: orange;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 3px 9px;
+      border-radius: 4px;
+    }
+
+    .article-meta .dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: #aaa;
+      display: inline-block;
+    }
+
+    .article-title {
+      font-size: clamp(1.4rem, 5vw, 2rem);
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 0.5rem;
+    }
+
+    .article-subtitle {
+      font-size: 1rem;
+      color: #888;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .article-author-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid rgba(128,128,128,0.2);
+    }
+
+    .article-author-row img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .article-author-row .author-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .article-author-row .author-name {
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .article-author-row .author-role {
+      font-size: 0.75rem;
+      color: #888;
+    }
+
+    .article-body {
+      font-size: 1rem;
+      line-height: 1.85;
+      max-width: 720px;
+    }
+
+    .article-body p {
+      margin-bottom: 1.25rem;
+    }
+
+    .article-body h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin: 2rem 0 0.75rem;
+    }
+
+    .article-body h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 1.5rem 0 0.5rem;
+    }
+
+    .article-body ul,
+    .article-body ol {
+      padding-left: 1.4rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .article-body li {
+      margin-bottom: 0.5rem;
+    }
+
+    .article-body .callout {
+      border-left: 4px solid orange;
+      background: rgba(255, 165, 0, 0.08);
+      border-radius: 0 8px 8px 0;
+      padding: 0.9rem 1.1rem;
+      margin: 1.5rem 0;
+      font-style: italic;
+    }
+
+    .article-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 2.5rem 0 1.5rem;
+    }
+
+    .article-tags a {
+      background: rgba(128,128,128,0.1);
+      color: inherit;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 0.78rem;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .article-tags a:hover {
+      background: rgba(255,165,0,0.2);
+    }
+
+    .share-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1.25rem 0;
+      border-top: 1px solid rgba(128,128,128,0.2);
+      border-bottom: 1px solid rgba(128,128,128,0.2);
+      margin-bottom: 2.5rem;
+    }
+
+    .share-row span {
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-right: 0.25rem;
+    }
+
+    .share-row a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(128,128,128,0.12);
+      color: inherit;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .share-row a:hover {
+      background: orange;
+      color: #fff;
+    }
+
+    .related-heading {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .related-card {
+      border-radius: 10px;
+      overflow: hidden;
+      background: rgba(128,128,128,0.07);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+      display: block;
+    }
+
+    .related-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .related-card img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .related-card .related-info {
+      padding: 0.75rem;
+    }
+
+    .related-card .related-badge {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: orange;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.25rem;
+    }
+
+    .related-card .related-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb {
+      font-size: 0.78rem;
+      color: #888;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .breadcrumb a {
+      color: orange;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    /* Reading progress bar */
+    #reading-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: orange;
+      width: 0%;
+      z-index: 9999;
+      transition: width 0.1s linear;
+    }
+  </style>
+
+  <!-- ── Scripts (head) ── -->
+  <script src="../assets/js/feather.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+  <!-- ── Structured Data ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "Ugom TV Official Website Upgraded and More Stable",
+    "description": "Ugom TV official website has been upgraded and is now more stable, with improved performance, a cleaner interface, and new features.",
+    "image": "https://ugomtv.pages.dev/assets/images/butterfly-ugomtv.png",
+    "author": {
+      "@type": "Person",
+      "name": "Courage Nelson"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Ugom TV",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ugomtv.pages.dev/assets/images/ugomtv.png"
+      }
+    },
+    "datePublished": "2026-05-23T00:00:00+01:00",
+    "dateModified": "2026-05-23T00:00:00+01:00",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://ugomtv.pages.dev/news/ugomtv-version2.html"
+    }
+  }
+  </script>
+</head>
+
+<body class="theme">
+
+  <!-- Reading progress bar -->
+  <div id="reading-progress"></div>
+
+  <!-- ══ Header ══ -->
+  <header>
+
+    <div class="logo">
+      <a href="/">
+        <img src="../assets/images/ugomtv.png" alt="Ugom TV Logo"> ™
+      </a>
+    </div>
+
+    <div class="header-buttons">
+      <a href="/profile/" class="user-avatar">
+        <img src="https://via.placeholder.com/40" alt="Profile">
+      </a>
+      <button class="search-btn">
+        <i data-feather="search"></i>
+      </button>
+      <search-overlay></search-overlay>
+      <button class="hamburger-btn" id="menuBtn">
+        <i data-feather="menu"></i>
+      </button>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="/"><i data-feather="home"></i> HOME</a></li>
+        <li><a href="/news/" class="active"><i data-feather="globe"></i> NEWS</a></li>
+        <li><a href="/videos/"><i data-feather="video"></i> VIDEOS</a></li>
+        <li><a href="/music/"><i data-feather="music"></i> MUSIC</a></li>
+        <li><a href="/about/"><i data-feather="info"></i> ABOUT</a></li>
+        <li><a href="/contact/"><i data-feather="mail"></i> CONTACT</a></li>
+        <li><a href="/faqs/"><i data-feather="help-circle"></i> FAQS</a></li>
+        <li><a href="/settings/"><i data-feather="settings"></i> SETTINGS</a></li>
+      </ul>
+      <p>Designed by Courage Nelson</p>
+    </nav>
+
+  </header>
+
+  <!-- ══ Main ══ -->
+  <main>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <i data-feather="chevron-right" style="width:14px;height:14px;"></i>
+      <a href="/news/">News</a>
+      <i data-feather="chevron-right" style="width:14px;height:14px;"></i>
+      <span>Ugom TV Website Upgraded</span>
+    </nav>
+
+    <!-- Article Meta -->
+    <div class="article-meta">
+      <span class="badge">Site News</span>
+      <span class="dot"></span>
+      <span>May 23, 2026</span>
+      <span class="dot"></span>
+      <span>3 min read</span>
+    </div>
+
+    <!-- Title -->
+    <h1 class="article-title">Ugom TV Official Website Upgraded and More Stable</h1>
+    
+    <ugomtv-player src="https://pub-734f9b0da97d487f86c3c68e647383f0.r2.dev/trailers/ogba_t_ugomtv_2026_r1080p.mp4"></ugomtv-player>
+    <p class="article-subtitle">
+      The Ugom TV website has received a major overhaul — faster, cleaner, and built to handle whatever comes next.
+    </p>
+    
+    <!-- Hero Image -->
+    <div class="article-hero">
+      <img src="../assets/images/butterfly-ugomtv.png" alt="Ugom TV butterfly banner — website upgrade announcement">
+    </div>
+
+    <!-- Article Body -->
+    <div class="article-body">
+
+      <p>
+        We are excited to announce that the <strong>Ugom TV official website</strong> has been upgraded to a newer, more stable version. After weeks of development, testing, and refinement, the new version is now live — and it comes with significant improvements across performance, design, and reliability.
+      </p>
+
+      <div class="callout">
+        "Our goal has always been to give our audience the best possible experience. This upgrade is a major step toward that — a faster, more dependable home for everything Ugom TV." — Courage Nelson, Founder
+      </div>
+
+      <h2>What's New in This Upgrade</h2>
+
+      <p>
+        The new version of the Ugom TV website is not just a cosmetic refresh. Under the hood, the entire codebase has been restructured for better maintainability and speed. Here is a breakdown of the key changes:
+      </p>
+
+      <h3>⚡ Improved Performance</h3>
+      <p>
+        Pages now load significantly faster thanks to optimized assets, smarter script loading, and leaner CSS. Whether you're on mobile data or Wi-Fi, the site should feel snappy and responsive.
+      </p>
+
+      <h3>🔒 Greater Stability</h3>
+      <p>
+        The backend integration with Firebase has been updated to version 10.12.2, improving real-time data handling and reducing the chances of unexpected errors. Authentication and Firestore interactions are now more robust.
+      </p>
+
+      <h3>📱 Better Mobile Experience</h3>
+      <p>
+        Mobile has always been where most of our audience comes from, and this update puts mobile-first design at the center. Navigation, cards, and layout elements have been refined for smaller screens.
+      </p>
+
+      <h3>🎨 Cleaner Design Language</h3>
+      <p>
+        The interface now uses a consistent set of design components — from link cards and share modals to headers and footers — making every page feel cohesive and intentional. Custom web components make updates easier to manage site-wide.
+      </p>
+
+      <h3>🔍 Enhanced Search</h3>
+      <p>
+        The search overlay has been rebuilt to be faster and more accessible. Finding news, videos, or music on Ugom TV is now a smoother experience.
+      </p>
+
+      <h2>What Stays the Same</h2>
+      <p>
+        Our commitment to delivering fresh news, music, videos, and reels to our community remains unchanged. All your favourite sections — News, Videos, Music, FAQs, and more — are exactly where you expect them to be.
+      </p>
+
+      <h2>What's Coming Next</h2>
+      <ul>
+        <li>User profiles and personalised feeds</li>
+        <li>Improved comments and community interaction</li>
+        <li>Push notification support for breaking news</li>
+        <li>Dark mode refinements and theme customisation</li>
+        <li>An expanded music library and dedicated player</li>
+      </ul>
+
+      <p>
+        We will continue to push updates regularly. If you notice any bugs or have suggestions, feel free to reach out via the <a href="/contact/" style="color: orange;">Contact page</a> — your feedback directly shapes how this site evolves.
+      </p>
+
+      <p>
+        Thank you for being part of the Ugom TV community. Stay tuned for more updates, content, and surprises. 🦋
+      </p>
+
+    </div>
+
+   
+
+    <!-- Related Articles -->
+    <p class="related-heading">More News</p>
+    <div class="related-grid">
+      <a href="/news/" class="related-card">
+        <img src="../assets/images/news.png" alt="News Update">
+        <div class="related-info">
+          <p class="related-badge">News</p>
+          <p class="related-title">Latest Updates from Ugom TV</p>
+        </div>
+      </a>
+      <a href="/videos/" class="related-card">
+        <img src="../assets/images/media.jpg" alt="Videos">
+        <div class="related-info">
+          <p class="related-badge">Videos</p>
+          <p class="related-title">Watch the Latest Reels and Short Videos</p>
+        </div>
+      </a>
+      <a href="/about/" class="related-card">
+        <img src="../assets/images/about.png" alt="About Ugom TV">
+        <div class="related-info">
+          <p class="related-badge">About</p>
+          <p class="related-title">Who We Are — The Story Behind Ugom TV</p>
+        </div>
+      </a>
+    </div>
+
+    <share-modal></share-modal>
+
+  </main>
+
+  <!-- ══ Footer ══ -->
+  <site-footer></site-footer>
+
+  <!-- ══ Scripts (body) ══ -->
+  <script>feather.replace();</script>
+  <script src="../assets/js/link-card.js"></script>
+  <script src="../assets/js/search.js"></script>
+  <script src="../assets/js/footer.js"></script>
+  <script src="../assets/js/script.js"      defer></script>
+  <script src="../assets/js/share.js"       defer></script>
+  <script src="../assets/js/ugomtv-player.js"         defer></script>
+  <script src="../assets/js/app.js"         defer></script>
+
+  <!-- Reading progress bar -->
+  <script>
+    const progressBar = document.getElementById('reading-progress');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      progressBar.style.width = Math.min(progress, 100) + '%';
+    });
+  </script>
+
+</body>
+</html>
