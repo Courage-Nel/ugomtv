@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ── Meta ── -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="Ugom TV brings you exciting news, reels, short videos on Youtube, Facebook and Instagram.">
+  <meta name="keywords" content="ugom, tv, ugomtv, okoboh, courage, ogomtv, ogumtv">
+  <meta name="author" content="Courage Nelson">
+  <meta name="theme-color" content="orange">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://ugomtv.pages.dev">
+  <meta property="og:title"       content="Ugom TV">
+  <meta property="og:description" content="Ugom TV brings you exciting news, reels, short videos on Youtube, Facebook and Instagram.">
+  <meta property="og:image"       content="assets/images/butterfly-ugomtv.png">
+  <meta property="og:site_name"   content="Ugom TV">
+  <meta property="og:locale"      content="en_NG">
+
+  <title>Ugom TV</title>
+
+  <!-- ── Icons & Styles ── -->
+  <link rel="icon"             href="assets/images/ugomtv.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/ugomtv.png" type="image/png">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/share.css">
+  <link rel="stylesheet" href="assets/css/style-desktop.css">
+  <link rel="stylesheet" href="assets/css/google-notosans.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
+
+  <!-- ── Scripts (head) ── -->
+  <script src="assets/js/feather.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+  <!-- ── Structured Data ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Ugom TV",
+    "url": "https://ugomtv.pages.dev",
+    "logo": "https://ugomtv.pages.dev/assets/images/ugomtv.png",
+    "sameAs": [
+      "https://www.facebook.com/ugomtv2021",
+      "https://www.instagram.com/ugomtv",
+      "https://www.youtube.com/@ugomtv2021"
+    ]
+  }
+  </script>
+</head>
+
+<body class="theme">
+
+  <!-- ══ Header ══ -->
+  <header>
+
+    <div class="logo">
+      <a href="/">
+        <img src="assets/images/ugomtv.png" alt="Ugom TV Logo"> ™
+      </a>
+    </div>
+
+    <div class="header-buttons">
+      <button class="search-btn">
+        <i data-feather="search"></i>
+      </button>
+      <search-overlay></search-overlay>
+      <button class="hamburger-btn" id="menuBtn">
+        <i data-feather="menu"></i>
+      </button>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="/"         class="active"><i data-feather="home"></i>        HOME</a></li>
+        <li><a href="/news/">              <i data-feather="globe"></i>       NEWS</a></li>
+        <li><a href="/videos/">            <i data-feather="video"></i>       VIDEOS</a></li>
+        <li><a href="/music/">             <i data-feather="music"></i>       MUSIC</a></li>
+        <li><a href="/about/">             <i data-feather="info"></i>        ABOUT</a></li>
+        <li><a href="/contact/">           <i data-feather="mail"></i>        CONTACT</a></li>
+        <li><a href="/faqs/">              <i data-feather="help-circle"></i> FAQS</a></li>
+        <li><a href="/settings/">          <i data-feather="settings"></i>    SETTINGS</a></li>
+      </ul>
+      <p>Designed by Courage Nelson</p>
+    </nav>
+
+  </header>
+
+  <!-- ══ Main ══ -->
+  <main>
+
+    <h1>Ugom TV Official Website.</h1>
+
+    <div id="clock"></div>
+
+    <!-- Weekly Banner -->
+    <div class="weekly-banner">
+      <img src="assets/images/butterfly-ugomtv.png" alt="Ugom TV butterfly banner">
+      <div class="banner-description">
+        <h2>This Week</h2>
+        <p>Ugom TV official website upgraded and more stable.</p>
+        <button class="learn-more-btn">Find Out</button>
+      </div>
+    </div>
+
+    <!-- Navigation Cards -->
+    <link-card href="news/"   image="assets/images/news.png"   title="News Update"></link-card>
+    <link-card href="videos/" image="assets/images/media.jpg"  title="Videos"></link-card>
+    <link-card href="faqs/"   image="assets/images/faqs.jpg"   title="Frequently Asked Questions"></link-card>
+    <link-card href="music/"  image="assets/images/music.png"  title="Music"></link-card>
+    <link-card href="about/" image="assets/images/about.png" title="About"></link-card>
+    
+    <news-list
+  image="assets/images/butterfly-ugomtv.png"
+  title="Ugom TV Official Website Updated and more Stable"
+  link="/news/breaking-news">
+    </news-list>
+
+    <share-modal></share-modal>
+
+  </main>
+
+  <!-- ══ Footer ══ -->
+  <site-footer></site-footer>
+
+  <!-- ══ Scripts (body) ══ -->
+  <script>feather.replace();</script>
+  <script src="assets/js/link-card.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/footer.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/share.js"></script>
+  <script src="assets/js/ugomtv-player.js"></script>
+  <script src="assets/js/news.js"></script>
+
+</body>
+</html>
